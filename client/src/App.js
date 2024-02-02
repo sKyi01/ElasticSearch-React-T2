@@ -61,7 +61,7 @@ function App() {
       <div style={styles.resultBox}>
         <ul style={styles.list}>
           {data.map(item => (
-            <li key={item.id} style={styles.listItem}>
+            <li key={item.id} style={styles.listItem}> 
               {`${item.name} - ${item.age}`}
             </li>
           ))}
